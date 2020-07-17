@@ -139,7 +139,6 @@
       tr th {
         border: 0 !important;
         color: $gray-darker;
-        text-transform: capitalize;
 
         &:first-child {
           padding-left: 20px !important;
@@ -246,7 +245,6 @@
         #info {
           th {
             border-bottom: 1px solid $crm-grayblue-dark !important;
-            text-transform: capitalize;
           }
 
           td,

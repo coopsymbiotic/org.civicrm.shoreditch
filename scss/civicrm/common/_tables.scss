@@ -81,7 +81,6 @@ table {
     background: none !important;
     border: 0;
     color: $brand-primary;
-    text-transform: capitalize;
 
     &:hover {
       color: darken($brand-primary, $crm-darken-percentage);

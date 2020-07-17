@@ -32,10 +32,6 @@
     .columnheader {
       border-color: $crm-grayblue-dark;
 
-      th {
-        text-transform: capitalize;
-      }
-
       th:first-child {
         width: $crm-sm-th-width;
       }

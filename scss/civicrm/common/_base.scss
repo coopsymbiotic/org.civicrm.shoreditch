@@ -60,7 +60,6 @@
       line-height: 20px !important;
       padding: 10px 20px;
       text-align: left;
-      text-transform: capitalize;
 
       &:hover {
         background: $crm-background !important;
@@ -108,7 +107,6 @@
   a.crm-hover-button.action-item,
   .crm-hover-button.btn-slide {
     padding: 0 5px;
-    text-transform: capitalize;
 
     &:hover {
       color: $brand-primary !important;

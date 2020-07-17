@@ -32,7 +32,6 @@
       color: $gray-darker !important;
       line-height: 18px;
       padding: 15px 10px;
-      text-transform: capitalize;
 
       &:first-child {
         padding-left: 20px;
@@ -172,10 +171,6 @@
       #info {
         tr {
           border: 0 !important;
-        }
-
-        th {
-          text-transform: capitalize;
         }
 
         td,
