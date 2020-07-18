@@ -34,6 +34,10 @@
       padding-right: $crm-standard-gap !important;
     }
   }
+
+  td {
+    color: black;
+  }
 }
 
 @mixin table-selector-full-style() {

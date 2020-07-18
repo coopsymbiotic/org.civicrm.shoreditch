@@ -23,7 +23,7 @@ table {
   th,
   .columnheader td {
     border-bottom: 0;
-    color: $gray-darker !important;
+    color: $crm-black !important;
     font-weight: bold !important;
     text-transform: none !important;
   }
@@ -38,6 +38,7 @@ table {
     border: initial;
     border-bottom: solid 1px $table-border-color;
     line-height: 35px;
+    color: $crm-black;
   }
 
   tr:last-child {
