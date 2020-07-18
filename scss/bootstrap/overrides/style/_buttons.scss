@@ -2,7 +2,6 @@
   @include button-remove-border-color();
 
   padding: $crm-btn-padding-base-vertical $crm-btn-padding-base-horizontal;
-  text-transform: uppercase;
 
   // Remove the outer shadow/glowing
   &:focus,
