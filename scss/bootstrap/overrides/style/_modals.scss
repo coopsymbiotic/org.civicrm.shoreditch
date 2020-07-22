@@ -28,20 +28,3 @@
     margin-top: 50px;
   }
 }
-
-/**
- * This is a custom class for the custom CTools modal with Bootstrap markup
- * It cancels out the styles that CTools applies via JS
- */
-.modal-civihr-bootstrap {
-  left: initial !important;
-  position: initial !important;
-  top: initial !important;
-
-  .loading-spinner {
-    left: initial !important;
-    margin: 0 auto -20px !important;
-    position: initial !important;
-    top: initial !important;
-  }
-}

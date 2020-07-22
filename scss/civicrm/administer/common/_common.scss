@@ -6,35 +6,6 @@
   @include table-block;
 }
 
-ul.civihr-popup {
-  background: $crm-white;
-  box-shadow: $box-shadow;
-  list-style: none;
-  margin: 0;
-  position: absolute;
-
-  li > a {
-    color: $gray-dark;
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-
-    &:hover {
-      background-color: $crm-background;
-    }
-  }
-}
-
-&.civihr-popup-open {
-  /* If popup is open we do not allow scrolling */
-  .dataTables_wrapper,
-  #activity_type,
-  #custom_group,
-  #ltype {
-    overflow: hidden !important;
-  }
-}
-
 #crm-main-content-wrapper {
   #ltype {
     background: transparent !important;
