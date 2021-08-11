@@ -126,16 +126,14 @@
     }
 
     .email-signature {
-      // Position the "> Signature" button to the right side of the table
+      // SYMBIOTIC Fix position when multiple emails
       > .collapsible-title {
+        font-weight: normal;
+        padding: 0;
         position: absolute;
-        // Discard paddings
-        right: -#{$crm-standard-gap * 2};
-        top: $crm-standard-gap;
-        // We need to discard the width to attach the "button"
-        // to the very right edge of the table. Because it is not overflown,
-        // it still we be visible and clickable.
-        width: 0;
+        right: -70px;
+        top: 11px;
+        width: 120px;
       }
 
       #signatureBlock1 {
