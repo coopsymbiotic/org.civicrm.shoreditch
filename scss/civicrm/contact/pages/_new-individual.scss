@@ -114,6 +114,9 @@
     table-layout: fixed;
 
     tr {
+      // SYMBIOTIC For the .email-signature
+      position: relative;
+
       td {
         &:nth-child(2),
         &:nth-child(3),
