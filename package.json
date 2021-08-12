@@ -13,7 +13,7 @@
     "postinstall": "npx gulp copy && npx gulp sass"
   },
   "engines": {
-    "node": "14.17.4"
+    "node": "14.18.1"
   },
   "semistandard": {
     "globals": [
