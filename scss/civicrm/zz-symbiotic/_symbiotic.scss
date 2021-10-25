@@ -2,3 +2,11 @@
 .ck-editor__editable_inline {
   max-height: 450px;
 }
+
+// Fix reply-to in civimail
+// https://github.com/civicrm/org.civicrm.shoreditch/issues/531
+.crm-mosaico-page {
+  .select2-container .select2-choice {
+    min-height: 26px !important;
+  }
+}
