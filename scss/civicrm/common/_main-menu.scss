@@ -10,9 +10,12 @@
 
   li {
     line-height: $item-line-height;
+    padding: 0; /* symbiotic */
 
     a {
       color: $gray-darker;
+      padding: 4px 10px; /* symbiotic */
+      text-decoration: none; /* symbiotic */
     }
   }
 
@@ -100,6 +103,36 @@
 }
 
 #{$outside-namespace-marker} {
+  /**
+   * Symbiotic - this copies some of the above CSS, but makes sure it works with
+   * the quicksearch results, which are outside crm-container
+   */
+  .crm-quickSearch-results {
+    li {
+      padding: 0; /* symbiotic */
+
+      a {
+        color: $gray-darker;
+        padding: 4px 10px; /* symbiotic */
+        text-decoration: none; /* symbiotic */
+      }
+    }
+
+    #crm-qsearch > a:first-child {
+      background-color: $gray-lighter;
+    }
+
+    #crm-qsearch-input {
+      background-color: transparent;
+      border: 0;
+      font-family: $font-family-base;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
   .ui-widget.crm-quickSearch-results {
     background: $gray-lighter;
     border: 0;
