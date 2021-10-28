@@ -3,6 +3,18 @@
   max-height: 450px;
 }
 
+#{$outside-namespace-marker} {
+  // Oddly otherwise transparent
+  .elfinder.dialogelfinder {
+    background: #fff;
+  }
+
+  // Displays the file extension, and very clutter-ish
+  .elfinder-cwd-icon::before {
+    display: none;
+  }
+}
+
 // Fix reply-to in civimail
 // https://github.com/civicrm/org.civicrm.shoreditch/issues/531
 .crm-mosaico-page {
