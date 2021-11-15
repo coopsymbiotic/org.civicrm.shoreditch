@@ -181,6 +181,18 @@ function shoreditch_civicrm_pageRun(&$page) {
 }
 
 /**
+ * Implements hook_civicrm_navigationMenu().
+ */
+function shoreditch_civicrm_navigationMenu(&$menu) {
+  _shoreditch_civix_insert_navigation_menu($menu, 'Administer/Customize Data and Screens', [
+    'label' => E::ts('Shoreditch Settings'),
+    'name' => 'shoreditch-settings',
+    'url' => 'civicrm/admin/setting/shoreditch',
+    'permission' => 'Administer CiviCRM',
+  ]);
+}
+
+/**
  * @return bool
  *   TRUE if Shoreditch is the active theme.
  */
