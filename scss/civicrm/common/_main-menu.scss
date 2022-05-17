@@ -16,6 +16,10 @@
       color: $gray-darker;
       padding: 4px 10px; /* symbiotic */
       text-decoration: none; /* symbiotic */
+
+      &:focus {
+        background: #fff !important; /* symbiotic */
+      }
     }
   }
 
@@ -24,11 +28,12 @@
   }
 
   #crm-qsearch-input {
-    background-color: transparent;
+    background-color: #fff !important; /* symbiotic */
     border: 0;
     font-family: $font-family-base;
 
     &:focus {
+      background: #fff !important; /* symbiotic */
       outline: none;
     }
   }
