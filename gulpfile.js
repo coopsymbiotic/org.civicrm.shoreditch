@@ -43,7 +43,7 @@ const PluginError = require('plugin-error');
 // sass
 {
   const bulk = require('gulp-sass-glob');
-  const sass = require('gulp-sass');
+  const sass = require('gulp-sass')(require('sass'));
   const postcss = require('gulp-postcss');
   const postcssPrefix = require('postcss-prefix-selector');
   const postcssDiscardDuplicates = require('postcss-discard-duplicates');
