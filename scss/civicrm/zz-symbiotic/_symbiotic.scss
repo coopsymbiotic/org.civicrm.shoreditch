@@ -15,6 +15,14 @@
   }
 }
 
+// Fixes for the summernote editor
+.crm-container .note-editor button.note-btn {
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #dae0e5;
+  padding: 5px 10px;
+}
+
 // Fix reply-to in civimail
 // https://github.com/civicrm/org.civicrm.shoreditch/issues/531
 .crm-mosaico-page {
