@@ -26,20 +26,5 @@
       }
     }
 
-    &.first {
-      @include pagination-control('\00ab', 'left');
-    }
-
-    &.last {
-      @include pagination-control('\00bb', 'right');
-    }
-
-    &.next {
-      @include pagination-control('\203A', 'right');
-    }
-
-    &.prev {
-      @include pagination-control('\2039', 'left');
-    }
   }
 }
